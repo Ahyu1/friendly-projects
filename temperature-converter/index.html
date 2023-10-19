@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <!--<div class="title">
+        <h1>TEMPERATURE CONVERTER</h1>
+    </div>-->
+    <div class="left">
+        <h1 class="title">TEMPERATURE CONVERTER</h1>
+        <img class="image" src="global-warming.gif">
+        <p id="quote">"Theoretically based temperature scales are based directly on theoretical arguments, especially those of kinetic theory and thermodynamics."</p>
+        <hr style="width: 170px;">
+        <p id="author">Max Planck</p>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2>Celcius to Kelvin:</h2>
+            <input style="width: 130px; margin-left: 100px;" id="in1" type="text" value="">
+            <button id="convert" onclick="cTok()">CONVERT</button>
+            <button id="result1"></button>
+        </div>
+        <hr style="width: 660px; margin-left: 15px;">
+        <div class="box">
+            <h2>Kelvin to Celcius:</h2>
+            <input style="width: 130px; margin-left: 100px;" id="in2" type="text">
+            <button id="convert" onclick="kToc()">CONVERT</button>
+            <button id="result2"></button>
+        </div>
+        <hr style="width: 660px; margin-left: 15px;">
+        <div class="box">
+            <h2>Celcius to Fahrenheit:</h2>
+            <input id="in3" type="text" value="">
+            <button id="convert" onclick="cTof()">CONVERT</button>
+            <button id="result3"></button>
+        </div>
+        <hr style="width: 660px; margin-left: 15px;">
+        <div class="box">
+            <h2>Fahrenheit to Celcius:</h2>
+            <input id="in4" type="text">
+            <button id="convert" onclick="fToc()">CONVERT</button>
+            <button id="result4"></button>
+        </div>
+        <hr style="width: 660px; margin-left: 15px;">
+        <div class="box">
+            <h2>Kelvin to Fahrenheit:</h2>
+            <input style="width: 130px; margin-left: 58px;"id="in5" type="text">
+            <button id="convert" onclick="kTof()">CONVERT</button>
+            <button id="result5"></button>
+        </div>
+        <hr style="width: 660px; margin-left: 15px;">
+        <div class="box">
+            <h2>Fahrenheit to Kelvin:</h2>
+            <input style="width: 130px; margin-left: 58px" id="in6" type="text">
+            <button id="convert" onclick="fTok()">CONVERT</button>
+            <button id="result6"></button>
+        </div>
+        
+    </div>
+    
+    </body>
+</html>
