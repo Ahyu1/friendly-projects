@@ -1,0 +1,120 @@
+
+* {
+        margin: 0;
+    }
+    body{
+        background-color: rgb(88, 125, 224);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-left: 90px;/*480px*/
+        margin-top: 65px;
+        border-radius: 12px;
+        padding: 25px 30px;
+    }
+
+    h2 {
+        color:rgb(88, 125, 224);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #in3, #in4{
+        width:130px;
+        margin-left: 50px
+    }
+
+    /*#in1, #in2 {
+        width: 130px;
+        margin-left: 100px;
+    }
+
+    #in5, #in6 {
+        width: 130px;
+        margin-left: 58px;
+    }*/
+
+    #result1, #result2, #result3, #result4, #result5, #result6 {
+        margin-left: 50px;
+        width: 65px;
+        height: 60px;
+        background-color: rgb(108, 150, 214);
+        border:none;
+        border-radius: 8px;
+        color: #fff;
+    }
+
+    .image {
+        width: 200px;
+    }
+
+    #convert {
+        color: #fff;
+        background-color: rgb(88, 125, 224);
+        border: none;
+        border-radius: 6px;
+        margin-left: 20px;
+        height: 20px;
+        transition: 0.3s;
+        width: 80px;
+        font-size: 10px;
+    }
+
+    #convert:hover{
+        height: 24px;
+
+    }
+
+    .title{
+        width: 200px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin-top:79px;
+    }
+
+    #quote {
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        width: 300px;
+        text-align: center;
+    }
+
+    #author {
+        color:#fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        transition: 0.2s;
+    }
+
+    #author:hover {
+        color: #fff8f88a;
+    }
