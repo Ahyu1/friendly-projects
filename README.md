@@ -3,8 +3,10 @@
 contains simple project ideas for beginners. :)
 
 ====Tools====
-HTML5/CSS3/Vanilla JS
-VS CODE
+1. HTML5
+2. CSS3
+3. Vanilla JS
+4. VS CODE
 
 ===Projects===
 1. Basic Calculator
